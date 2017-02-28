@@ -56,6 +56,7 @@ Computes softsign: features / (abs(features) + 1).
 
 ### Cost Function:
 
+
 the function to return a number representing how well the neural network performed to map training examples to correct output. There are different type of cost function using depending upon the requirement,
 
 ####1.Mean_Square_Error = tf.losses.mean_squared_error(labels, predictions, weights=1.0, scope=None, loss_collection=tf.GraphKeys.LOSSES)

@@ -7,7 +7,9 @@
 ####1.SIGMOID = tf.nn.sigmoid(x, name=None)<br\>
 
 
-   A sigmoid function is a mathematical function having an "S" shaped curve (sigmoid curve). Often, sigmoid function refers to the special case of the logistic function  defined by the formula,
+   A sigmoid function is a mathematical function having an "S" shaped curve (sigmoid curve)
+![sigmoid_function](https://cloud.githubusercontent.com/assets/24242850/23393460/01d49b4a-fda9-11e6-8e44-6f7db17ed6b4.png)
+. Often, sigmoid function refers to the special case of the logistic function  defined by the formula,
               `y = 1 / (1 + exp(-x))`. Output ranges from[0,1]
 
 #####Args: 
@@ -17,7 +19,7 @@
 
 ####2.TANH = tf.nn.tanh(x, name=None)<br\>
 
-The tanh(z) function is a rescaled version of the sigmoid, and its output range is [ − 1,1] instead of [0,1]. 
+The tanh(z) function is a rescaled version of the sigmoid, and its output range is [ − 1,1] instead of [0,1]![800px-tanh_function](https://cloud.githubusercontent.com/assets/24242850/23393459/01cc8130-fda9-11e6-9087-db07d465fb70.png). 
  `f(z) = exp(z) - exp(-z))/(exp(z) + exp(-z))`
  
 ####3.RELU = tf.nn.relu(features, name=None)<br\>

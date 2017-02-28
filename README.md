@@ -19,7 +19,9 @@
 
 ####2.TANH = tf.nn.tanh(x, name=None)<br\>
 
-The tanh(z) function is a rescaled version of the sigmoid, and its output range is [ − 1,1] instead of [0,1]![800px-tanh_function](https://cloud.githubusercontent.com/assets/24242850/23393459/01cc8130-fda9-11e6-9087-db07d465fb70.png). 
+The tanh(z) function is a rescaled version of the sigmoid, and its output range is [ − 1,1] instead of [0,1]![800px-tanh_function](https://cloud.githubusercontent.com/assets/24242850/23393459/01cc8130-fda9-11e6-9087-db07d465fb70.png).
+
+
  `f(z) = exp(z) - exp(-z))/(exp(z) + exp(-z))`
  
 ####3.RELU = tf.nn.relu(features, name=None)<br\>
